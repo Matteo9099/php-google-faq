@@ -76,30 +76,31 @@ $faqs = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ google</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-
     <header class="container-fluid">
-        <div class="top d-flex justify-content-between">
-            <div class="logo d-flex">
-                <h2>Google</h2>
-                <h3>Privacy e termini</h3>
+        <div class="top d-flex justify-content-between py-2">
+            <div class="logo d-flex p-2">
+                <a href="#">
+                    <img class="img-fluid" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Logo Google">
+                    <span>Privacy e termini</span>
+                </a>
             </div>
-            <div class="my-self">
-
+            <div class="my-self" title="Account Google">
+                <span class="text-white">M</span>
             </div>
         </div>
             <!-- Navbar -->
         <nav class="bottom">
             <ul>
-                <li><a href="#">Intoduzione</a></li>
-                <li><a href="#">Norme sulla privacy</a></li>
-                <li><a href="#">Termini di servizio</a></li>
-                <li><a href="#">Tecnologie</a></li>
-                <li><a href="#">Domande frequenti</a></li>
+                <li class="fw-bold"><a href="#">Intoduzione</a></li>
+                <li class="fw-bold"><a href="#">Norme sulla privacy</a></li>
+                <li class="fw-bold"><a href="#">Termini di servizio</a></li>
+                <li class="fw-bold"><a href="#">Tecnologie</a></li>
+                <li class="fw-bold active"><a href="#">Domande frequenti</a></li>
             </ul>
         </nav>
         
@@ -131,6 +132,25 @@ $faqs = [
     </main>
         
     
+    <footer>
+        <div class="container w-75 px-5 d-flex justify-content-between align-items-center py-2">
+            <div>
+                <ul class="d-flex">
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Tutto su Google</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Termini</a></li>
+                </ul>
+            </div>
+            <div>
+                <select name="language" id="">
+                    <option value="it">Italiano</option>
+                    <option value="en">English</option>
+                    <option value="sp">Spanish</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
