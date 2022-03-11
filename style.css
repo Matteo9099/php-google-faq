@@ -1,0 +1,19 @@
+.my-self{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+header{
+    border-bottom: 2px solid gray;
+}
+
+.header-bottom ul{
+    display: flex;
+    list-style-type: none;
+}
+.header-bottom li{
+    padding: 0 15px;
+}
+
+
