@@ -82,8 +82,8 @@ $faqs = [
 <body>
 
     <header class="container-fluid">
-        <div class="top d-flex justify-content-between py-2">
-            <div class="logo d-flex p-2">
+        <div class="top d-flex justify-content-between p-3">
+            <div class="logo d-flex">
                 <a href="#">
                     <img class="img-fluid" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Logo Google">
                     <span>Privacy e termini</span>
@@ -96,11 +96,11 @@ $faqs = [
             <!-- Navbar -->
         <nav class="bottom">
             <ul>
-                <li class="fw-bold"><a href="#">Intoduzione</a></li>
-                <li class="fw-bold"><a href="#">Norme sulla privacy</a></li>
-                <li class="fw-bold"><a href="#">Termini di servizio</a></li>
-                <li class="fw-bold"><a href="#">Tecnologie</a></li>
-                <li class="fw-bold active"><a href="#">Domande frequenti</a></li>
+                <li><a href="#">Intoduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li class="active"><a href="#">Domande frequenti</a></li>
             </ul>
         </nav>
         

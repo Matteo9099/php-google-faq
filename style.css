@@ -22,10 +22,7 @@ header span{
     color: #000;
     font-size: 22px;
 }
-.bottom ul li.active{
-    color: rgb(0, 129, 250);
-    border-bottom: 2px solid rgb(0, 129, 250);
-}
+
 .bottom ul{
     display: flex;
     list-style-type: none;
@@ -35,7 +32,12 @@ header span{
 }
 .bottom li a{
     text-decoration: none;
-    color: rgb(95, 94, 94);
+    color: rgb(85, 83, 83);
+    font-weight: 500;
+}
+.active a{
+    color: rgb(0, 162, 255);
+    border-bottom: 2px solid rgb(0, 162, 255);
 }
 .ms-main{
     padding-top: 200px;
